@@ -31,4 +31,8 @@ update tb_funcionarios set genero = "mulher trans"  where id=1;
 update tb_funcionarios set d_nascimento = "1981/05/02"  where id=1; 
 update tb_funcionarios set setor = "Educacao"  where id=1; 
 update tb_funcionarios set cargo = "Professora"  where id=1; 
-update tb_funcionarios set salario = 14000.00  where id=1; 
+update tb_funcionarios set salario = 2000.00  where id=1; 
+
+select*from tb_funcionarios where salario in (2000.00);
+select*from tb_funcionarios where salario > 2000.00;
+
